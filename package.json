@@ -22,7 +22,8 @@
     "dom-parser": "^0.1.6",
     "hono": "^1.4.1",
     "html-entities": "^2.3.3",
-    "qs": "^6.11.1"
+    "qs": "^6.11.1",
+    "puppeteer": "^22.9.0"
   },
   "directories": {
     "test": "tests"
