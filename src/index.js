@@ -6,6 +6,7 @@ import title from "./routes/title";
 import cache from "./helpers/cache";
 import search from "./routes/search";
 import userRoutes from "./routes/user";
+import sendRoutes from "./routes/browser";
 
 const app = new Hono();
 
@@ -16,6 +17,7 @@ app.route("/search", search);
 app.route("/title", title);
 app.route("/reviews", reviews);
 app.route("/user", userRoutes);
+app.route("/send", sendRoutes);
 app.route("/", index);
 
 app.fire();
